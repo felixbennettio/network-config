@@ -1,0 +1,390 @@
+{
+  "source_repository": "felixbennettio/proxy_plugins",
+  "source_commit": "eadf618563029a554f05f680def3855ba5df7bfa",
+  "files": [
+    {
+      "path": "modules/egern/modules/ads/ad-platform-blocker.sgmodule",
+      "source_sha256": "a6aac68223851e646423dfb22c50e1dcd38301f067d9355b6dcc2a8a999ee591",
+      "source_manifest_sha256": "a6aac68223851e646423dfb22c50e1dcd38301f067d9355b6dcc2a8a999ee591",
+      "sha256": "a6aac68223851e646423dfb22c50e1dcd38301f067d9355b6dcc2a8a999ee591"
+    },
+    {
+      "path": "modules/egern/modules/ads/amap.sgmodule",
+      "source_sha256": "ddb0972607d5b5862285c14d1be8e66bd1a00ee608fabbade0d78a92dce07551",
+      "source_manifest_sha256": "32aa1dfd1775a49c8ba8cd8612e572a0bfd0c4e5f8859c921dbd15ade7eefe6e",
+      "sha256": "42605bff01286203ad2cd5208f739d6f12192f9f3031535bbf6640a756d08751"
+    },
+    {
+      "path": "modules/egern/modules/ads/baidu-netdisk.sgmodule",
+      "source_sha256": "8588b9f9f96ca1a67742a1c5de58081853924e4189da7ff06986baa636bbb947",
+      "source_manifest_sha256": "8588b9f9f96ca1a67742a1c5de58081853924e4189da7ff06986baa636bbb947",
+      "sha256": "8588b9f9f96ca1a67742a1c5de58081853924e4189da7ff06986baa636bbb947"
+    },
+    {
+      "path": "modules/egern/modules/ads/didi.sgmodule",
+      "source_sha256": "14cd392ba4a7a9b4300096f3cba3df2a61a6ae8604792200045a852117dc73ec",
+      "source_manifest_sha256": "14cd392ba4a7a9b4300096f3cba3df2a61a6ae8604792200045a852117dc73ec",
+      "sha256": "14cd392ba4a7a9b4300096f3cba3df2a61a6ae8604792200045a852117dc73ec"
+    },
+    {
+      "path": "modules/egern/modules/ads/general-ad-block.sgmodule",
+      "source_sha256": "8e12a62362b35e55063fe3ad165e42a44abba6fe24fd56dba53b86138bf050e5",
+      "source_manifest_sha256": "8e12a62362b35e55063fe3ad165e42a44abba6fe24fd56dba53b86138bf050e5",
+      "sha256": "8e12a62362b35e55063fe3ad165e42a44abba6fe24fd56dba53b86138bf050e5"
+    },
+    {
+      "path": "modules/egern/modules/ads/jd-waimai.sgmodule",
+      "source_sha256": "6ae3a412712023a9ab9c872cc06fdc4219efad782036d688a2feebad5f24fd3a",
+      "source_manifest_sha256": "6ae3a412712023a9ab9c872cc06fdc4219efad782036d688a2feebad5f24fd3a",
+      "sha256": "6ae3a412712023a9ab9c872cc06fdc4219efad782036d688a2feebad5f24fd3a"
+    },
+    {
+      "path": "modules/egern/modules/ads/jd.sgmodule",
+      "source_sha256": "1d82ae8629c67010df7609dd0e5e4a5c24d8e5067ce025200224e3711caf7ed8",
+      "source_manifest_sha256": "1f4b45c93a36e7989570355162be0a3bbf6b194ad15a40f5d87f45dbac375c5f",
+      "sha256": "f87c3c677bac234f4df6e07ebec85ba48bdfef8d48e6503e81693619b371bf62"
+    },
+    {
+      "path": "modules/egern/modules/ads/kelee-filter.sgmodule",
+      "source_sha256": "26023ec654f2b67f6548702d5ef5cf98255cf2dc46288fb6d61f21a17f7ddf87",
+      "source_manifest_sha256": "26023ec654f2b67f6548702d5ef5cf98255cf2dc46288fb6d61f21a17f7ddf87",
+      "sha256": "26023ec654f2b67f6548702d5ef5cf98255cf2dc46288fb6d61f21a17f7ddf87"
+    },
+    {
+      "path": "modules/egern/modules/ads/netease-music.sgmodule",
+      "source_sha256": "88a7a5a662f52e3ca7fb4214e93d1e4ab3874510c92efd84452aa97a4a3611cd",
+      "source_manifest_sha256": "664c3262af5658e1c83d4bb64185c02ba509423f2c2dca009396a94f7729de31",
+      "sha256": "aafb3d7ccc2765199559df0f8611cab70e380ae557360e0adcf189d7584fd734"
+    },
+    {
+      "path": "modules/egern/modules/ads/pinduoduo.sgmodule",
+      "source_sha256": "0dbb36f52914f1db7c2ce33bb80fd6bd10c7c4b8c94212cd8a98bdbb8028aaa7",
+      "source_manifest_sha256": "0dbb36f52914f1db7c2ce33bb80fd6bd10c7c4b8c94212cd8a98bdbb8028aaa7",
+      "sha256": "0dbb36f52914f1db7c2ce33bb80fd6bd10c7c4b8c94212cd8a98bdbb8028aaa7"
+    },
+    {
+      "path": "modules/egern/modules/ads/qidian.sgmodule",
+      "source_sha256": "a16fa48dee14506618cf10627d414fc81c648c504bbfd06ff338cdbb3dbf9207",
+      "source_manifest_sha256": "de5f329dbe78e02219e573ee90c6b5fcc48e8b8ec7c66c98cfd83afaace19d84",
+      "sha256": "b9c32c024661fe5b7e422f2c9e9a3c9956bb6e61af245683bcf5b1a4bc4469e7"
+    },
+    {
+      "path": "modules/egern/modules/ads/quark.sgmodule",
+      "source_sha256": "978f34e98487aaeb80b57c8a7bde208e6b631c3dd18da1fceea6a1cc35ae9b95",
+      "source_manifest_sha256": "978f34e98487aaeb80b57c8a7bde208e6b631c3dd18da1fceea6a1cc35ae9b95",
+      "sha256": "978f34e98487aaeb80b57c8a7bde208e6b631c3dd18da1fceea6a1cc35ae9b95"
+    },
+    {
+      "path": "modules/egern/modules/ads/taobao.sgmodule",
+      "source_sha256": "de4b7206395691f3f9440a8b4587f42de456cdc79faa5b7276bc95ae1373c24c",
+      "source_manifest_sha256": "9a7300a3d95409fbe24a601d5ea71b2922f6d633c9d1e0e39323cb1e1c048f49",
+      "sha256": "27b77a7a71179a37ad8152b97a6574fdca15d90a3de6e66907ee52020551be4c"
+    },
+    {
+      "path": "modules/egern/modules/ads/tencent-docs.sgmodule",
+      "source_sha256": "f6c72650eca182cdf3c0e01112d2a1d3f008441496493a0ba7d2047e8d66ce07",
+      "source_manifest_sha256": "f6c72650eca182cdf3c0e01112d2a1d3f008441496493a0ba7d2047e8d66ce07",
+      "sha256": "f6c72650eca182cdf3c0e01112d2a1d3f008441496493a0ba7d2047e8d66ce07"
+    },
+    {
+      "path": "modules/egern/modules/ads/tieba.sgmodule",
+      "source_sha256": "fecd240baa3a5d0489235589411d4b460c7b84fac580d673ff864b7705f926bb",
+      "source_manifest_sha256": "b9f745e7b1030007987d45d8668a0fdbc8693088eb49b24c8548348497394a71",
+      "sha256": "a797859cf677f459b7fc8e9eff8e7bfd67c50a349c5d5da1d760e5da08e15c33"
+    },
+    {
+      "path": "modules/egern/modules/ads/wechat-miniprogram.sgmodule",
+      "source_sha256": "776ec8844c3515d14a5cbc345c17b3d02268e744d9798967f5ea1ba69ccd9256",
+      "source_manifest_sha256": "776ec8844c3515d14a5cbc345c17b3d02268e744d9798967f5ea1ba69ccd9256",
+      "sha256": "858eb122c4af42a215c68a7c1f753c5c4a730673914bd1ffbb7dfdb0e98f6d99"
+    },
+    {
+      "path": "modules/egern/modules/ads/wechat-official.sgmodule",
+      "source_sha256": "bea63891dfbce983bccf36540749f262e205c4217d61ae363a6419d505615471",
+      "source_manifest_sha256": "bea63891dfbce983bccf36540749f262e205c4217d61ae363a6419d505615471",
+      "sha256": "bea63891dfbce983bccf36540749f262e205c4217d61ae363a6419d505615471"
+    },
+    {
+      "path": "modules/egern/modules/ads/weibo.sgmodule",
+      "source_sha256": "9239e6c425f83919d905b998a40e3d231918f7f2a38574f5245e3a5e78019963",
+      "source_manifest_sha256": "11693c668eb1f49c95f380120231fed2bef9c94233bfe91beec19586732dd0e0",
+      "sha256": "22b0a1164a8ad0669900280dd20964e8fb1766505f75f8f9d260ce1b00c25b94"
+    },
+    {
+      "path": "modules/egern/modules/ads/xiaohongshu.sgmodule",
+      "source_sha256": "7b4b2e63525e23e2c274dba70e8706e243b9a8ac28ca3bf6280f1c6892d9f1ac",
+      "source_manifest_sha256": "94e8eca219a20956515bce176c8a1748fb0157a44513f3f665ab1aae030553a4",
+      "sha256": "6a0f9aff875e195bc72bff7edfc348dbc039f0c850c156e052c2e70c656b1b88"
+    },
+    {
+      "path": "modules/egern/modules/ads/zhihu.sgmodule",
+      "source_sha256": "52ba86c1f534b17012ab3be31969182b9e887190d605841fa2a47fe3a8d6b2de",
+      "source_manifest_sha256": "47275f06ca4dd6a39d0682bde4249523b1b34e5ee9d55d1b8812c367abb7b5f3",
+      "sha256": "f00432caab8afacf303d2c1d5e28888bbe9df2af2091ff50d02e5a64e2789afc"
+    },
+    {
+      "path": "modules/egern/modules/bilibili/BiliBili.ADBlock.sgmodule",
+      "source_sha256": "cf18844bf03b3ca12025622cf08e0b196cd8badd5bf8832824da53a43a9976d8",
+      "source_manifest_sha256": "cf18844bf03b3ca12025622cf08e0b196cd8badd5bf8832824da53a43a9976d8",
+      "sha256": "e7497fcd3e909bd9f1b58a5be67987af924c79cec85c0a5a08e0daac13624cd7"
+    },
+    {
+      "path": "modules/egern/modules/core/BoxJs.sgmodule",
+      "source_sha256": "159fc76e4c03ca5af1eb495a0751abe8a69c8121e053229c6b78a27600299efd",
+      "source_manifest_sha256": "e7b48d262a0b74bbba18c475fad4b2684a5986f5a8d593f219e8619c58854960",
+      "sha256": "d3e7061dcc4f38111d72e3a47042f6e8bfdefe64275e7b8da164e716b12501c2"
+    },
+    {
+      "path": "modules/egern/modules/core/Script-Hub.sgmodule",
+      "source_sha256": "f426201ff4467610c8a213dc52b0d973c1bd6e7c5180c43cf6071d0f31369cee",
+      "source_manifest_sha256": "c41f32a4be58b0103d27bebe7b5f0a98cecc12a023f09331d27a458080e1a124",
+      "sha256": "0b33ec8f57ed250699a0f314b59d0f9e77077d07930d50afc68c7d76a444ed50"
+    },
+    {
+      "path": "modules/egern/modules/core/SubStore.yaml",
+      "source_sha256": "f913178e6d43eef09330422f0b003f096e20df6e9dfb778b71c909d1f389bd03",
+      "source_manifest_sha256": "0854bdfd8f90a3b98238ea718d3d19a15d3a61a15b336b42316a7a0ae79d4fb9",
+      "sha256": "162e1dfa96f7b6ed624064f28fc5a76757131be71ee59655069edd293713d359"
+    },
+    {
+      "path": "modules/egern/modules/core/iRingo.WeatherKit.Workers.srmodule",
+      "source_sha256": "5b8392475b1dea1eff64648360df6d90beedc9527013e2adba432afb3801c62e",
+      "source_manifest_sha256": "5b8392475b1dea1eff64648360df6d90beedc9527013e2adba432afb3801c62e",
+      "sha256": "5b8392475b1dea1eff64648360df6d90beedc9527013e2adba432afb3801c62e"
+    },
+    {
+      "path": "modules/egern/modules/network/block-httpdns.sgmodule",
+      "source_sha256": "41640dadefa3435cb64c54ec73d641bffacf72fc2ef9cbc7e6be9b2834c42215",
+      "source_manifest_sha256": "41640dadefa3435cb64c54ec73d641bffacf72fc2ef9cbc7e6be9b2834c42215",
+      "sha256": "41640dadefa3435cb64c54ec73d641bffacf72fc2ef9cbc7e6be9b2834c42215"
+    },
+    {
+      "path": "modules/egern/rules/vendor/app2smile/rules/rule/tieba-ad.list",
+      "source_sha256": "93599502d9498d4977f007d89511b2918afc6398dad5b8cece25057b2fbff7a3",
+      "source_manifest_sha256": "93599502d9498d4977f007d89511b2918afc6398dad5b8cece25057b2fbff7a3",
+      "sha256": "93599502d9498d4977f007d89511b2918afc6398dad5b8cece25057b2fbff7a3"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/BiliUniverse/ADBlock/releases/download/v0.6.24/request.bundle.js",
+      "source_sha256": "adc2f2f2e09466ab9f21f4a0e39e212a741b753279b993a773c23af81bf43ecf",
+      "source_manifest_sha256": "adc2f2f2e09466ab9f21f4a0e39e212a741b753279b993a773c23af81bf43ecf",
+      "sha256": "adc2f2f2e09466ab9f21f4a0e39e212a741b753279b993a773c23af81bf43ecf"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/BiliUniverse/ADBlock/releases/download/v0.6.24/response.bundle.js",
+      "source_sha256": "f805f7dd5dad9f43ac67ce47b9d3ac294b5848a59b1d0ea9d504707fe406f4a1",
+      "source_manifest_sha256": "f805f7dd5dad9f43ac67ce47b9d3ac294b5848a59b1d0ea9d504707fe406f4a1",
+      "sha256": "f805f7dd5dad9f43ac67ce47b9d3ac294b5848a59b1d0ea9d504707fe406f4a1"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/Script-Hub-Org/Script-Hub/Rewrite-Parser.js",
+      "source_sha256": "c5e46afa219424e22bcba151dbd6f5e4c6caf518cfdf3317381f4c7e2068e51b",
+      "source_manifest_sha256": "c5e46afa219424e22bcba151dbd6f5e4c6caf518cfdf3317381f4c7e2068e51b",
+      "sha256": "c5e46afa219424e22bcba151dbd6f5e4c6caf518cfdf3317381f4c7e2068e51b"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/Script-Hub-Org/Script-Hub/rule-parser.js",
+      "source_sha256": "6d30380cc68e112b5bcb5d9b2013d553d3c48612b1c61e78f0e0bfae3e48ca2c",
+      "source_manifest_sha256": "6d30380cc68e112b5bcb5d9b2013d553d3c48612b1c61e78f0e0bfae3e48ca2c",
+      "sha256": "6d30380cc68e112b5bcb5d9b2013d553d3c48612b1c61e78f0e0bfae3e48ca2c"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/Script-Hub-Org/Script-Hub/script-converter.js",
+      "source_sha256": "27fc22ac5a40364fbe0728d7264e163431656e7b142cde6337ecad11e5d60b78",
+      "source_manifest_sha256": "27fc22ac5a40364fbe0728d7264e163431656e7b142cde6337ecad11e5d60b78",
+      "sha256": "27fc22ac5a40364fbe0728d7264e163431656e7b142cde6337ecad11e5d60b78"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/Script-Hub-Org/Script-Hub/script-hub.js",
+      "source_sha256": "6a0c1d8e05136e7f134bfbf0dd94a8ab7356b22607a1ba7bace57820e2bc7af1",
+      "source_manifest_sha256": "6a0c1d8e05136e7f134bfbf0dd94a8ab7356b22607a1ba7bace57820e2bc7af1",
+      "sha256": "6a0c1d8e05136e7f134bfbf0dd94a8ab7356b22607a1ba7bace57820e2bc7af1"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/app2smile/rules/js/qidian.js",
+      "source_sha256": "e599a063040ecb222ad5d4f8666157ef1ee31495aef6d87fb13453dce46f5c19",
+      "source_manifest_sha256": "e599a063040ecb222ad5d4f8666157ef1ee31495aef6d87fb13453dce46f5c19",
+      "sha256": "e599a063040ecb222ad5d4f8666157ef1ee31495aef6d87fb13453dce46f5c19"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/app2smile/rules/js/tieba-json.js",
+      "source_sha256": "91040c0d5bf906357829d8df344a3bdce00b59e6c24f255e54a2ef7a46d04c69",
+      "source_manifest_sha256": "91040c0d5bf906357829d8df344a3bdce00b59e6c24f255e54a2ef7a46d04c69",
+      "sha256": "91040c0d5bf906357829d8df344a3bdce00b59e6c24f255e54a2ef7a46d04c69"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/app2smile/rules/js/tieba-proto.js",
+      "source_sha256": "6015d737870b6d89c38a0181479ed715e07d11b5a2c3746f96f95e25835e8610",
+      "source_manifest_sha256": "6015d737870b6d89c38a0181479ed715e07d11b5a2c3746f96f95e25835e8610",
+      "sha256": "6015d737870b6d89c38a0181479ed715e07d11b5a2c3746f96f95e25835e8610"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/chavyleung/scripts/box/chavy.boxjs.js",
+      "source_sha256": "24ab4513d9b210d3921f87660175ddf408f2c4728a01ecb391082e82d8f8ffa6",
+      "source_manifest_sha256": "24ab4513d9b210d3921f87660175ddf408f2c4728a01ecb391082e82d8f8ffa6",
+      "sha256": "24ab4513d9b210d3921f87660175ddf408f2c4728a01ecb391082e82d8f8ffa6"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/Amap/Amap_remove_ads.js",
+      "source_sha256": "12eb78582ed66e768377bd0c5a8b8300cdf6844469491fcedcd2c1270aa6d535",
+      "source_manifest_sha256": "12eb78582ed66e768377bd0c5a8b8300cdf6844469491fcedcd2c1270aa6d535",
+      "sha256": "12eb78582ed66e768377bd0c5a8b8300cdf6844469491fcedcd2c1270aa6d535"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/JD/JD_remove_ads.js",
+      "source_sha256": "813d8882341b1d38d1316790d6004b730655d51f48b534f29312ccc782ccba38",
+      "source_manifest_sha256": "813d8882341b1d38d1316790d6004b730655d51f48b534f29312ccc782ccba38",
+      "sha256": "813d8882341b1d38d1316790d6004b730655d51f48b534f29312ccc782ccba38"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js",
+      "source_sha256": "86291030a9a44c242465cee88f96b212a2140492228a8777509122f2d7df6da2",
+      "source_manifest_sha256": "86291030a9a44c242465cee88f96b212a2140492228a8777509122f2d7df6da2",
+      "sha256": "86291030a9a44c242465cee88f96b212a2140492228a8777509122f2d7df6da2"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/Taobao/Taobao_remove_ads.js",
+      "source_sha256": "ea9b7e89c78329038e0fc590867c4da4da178ee67e1f6863c14da8e44142917d",
+      "source_manifest_sha256": "ea9b7e89c78329038e0fc590867c4da4da178ee67e1f6863c14da8e44142917d",
+      "sha256": "ea9b7e89c78329038e0fc590867c4da4da178ee67e1f6863c14da8e44142917d"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js",
+      "source_sha256": "5c648b5e1d12cd964ebf58fe50a45e85bfb9ba9beee56b0e2e5d60db36ee8c6d",
+      "source_manifest_sha256": "5c648b5e1d12cd964ebf58fe50a45e85bfb9ba9beee56b0e2e5d60db36ee8c6d",
+      "sha256": "5c648b5e1d12cd964ebf58fe50a45e85bfb9ba9beee56b0e2e5d60db36ee8c6d"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js",
+      "source_sha256": "463a6a5fb8aab492bbab6f3a7af401d1a815024091e784106fa79fc8ac2ca140",
+      "source_manifest_sha256": "463a6a5fb8aab492bbab6f3a7af401d1a815024091e784106fa79fc8ac2ca140",
+      "sha256": "463a6a5fb8aab492bbab6f3a7af401d1a815024091e784106fa79fc8ac2ca140"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js",
+      "source_sha256": "faebcaf6d2e52f80019bd6342a3c8342a320c03e6c418e523536988fa4e24df5",
+      "source_manifest_sha256": "faebcaf6d2e52f80019bd6342a3c8342a320c03e6c418e523536988fa4e24df5",
+      "sha256": "faebcaf6d2e52f80019bd6342a3c8342a320c03e6c418e523536988fa4e24df5"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js",
+      "source_sha256": "276834dc8c3cdf67cc942ffae11c004931f4a317960e380321070cee26385482",
+      "source_manifest_sha256": "276834dc8c3cdf67cc942ffae11c004931f4a317960e380321070cee26385482",
+      "sha256": "276834dc8c3cdf67cc942ffae11c004931f4a317960e380321070cee26385482"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js",
+      "source_sha256": "5f9f5379b3259a318577bf0e82d54e32815489eaad689ec38f70e1ef1bb17334",
+      "source_manifest_sha256": "5f9f5379b3259a318577bf0e82d54e32815489eaad689ec38f70e1ef1bb17334",
+      "sha256": "5f9f5379b3259a318577bf0e82d54e32815489eaad689ec38f70e1ef1bb17334"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
+      "source_sha256": "b994cd31d4f3b5ab5126c029ed9b7bd61d9f4877242a0f7988f9b837ceb85034",
+      "source_manifest_sha256": "b994cd31d4f3b5ab5126c029ed9b7bd61d9f4877242a0f7988f9b837ceb85034",
+      "sha256": "b994cd31d4f3b5ab5126c029ed9b7bd61d9f4877242a0f7988f9b837ceb85034"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js",
+      "source_sha256": "ce813cb9eaf748630e45569a968cbd5f66d9a7994c8944be553bbbeaf631aad6",
+      "source_manifest_sha256": "ce813cb9eaf748630e45569a968cbd5f66d9a7994c8944be553bbbeaf631aad6",
+      "sha256": "ce813cb9eaf748630e45569a968cbd5f66d9a7994c8944be553bbbeaf631aad6"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js",
+      "source_sha256": "1c9441c9402e5b45563da4d388687e92af9dc2ec893ac9a6fbcd9b11ccdf50ae",
+      "source_manifest_sha256": "1c9441c9402e5b45563da4d388687e92af9dc2ec893ac9a6fbcd9b11ccdf50ae",
+      "sha256": "1c9441c9402e5b45563da4d388687e92af9dc2ec893ac9a6fbcd9b11ccdf50ae"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js",
+      "source_sha256": "306b166a644e500bc1aed9783fb4e741f150e1f234bc11b4390742b899a21ccd",
+      "source_manifest_sha256": "306b166a644e500bc1aed9783fb4e741f150e1f234bc11b4390742b899a21ccd",
+      "sha256": "306b166a644e500bc1aed9783fb4e741f150e1f234bc11b4390742b899a21ccd"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js",
+      "source_sha256": "f814b6e1b6709ab2881b89aefda7fb36727bbf4c122902ef4a69eb249d2b80bd",
+      "source_manifest_sha256": "f814b6e1b6709ab2881b89aefda7fb36727bbf4c122902ef4a69eb249d2b80bd",
+      "sha256": "f814b6e1b6709ab2881b89aefda7fb36727bbf4c122902ef4a69eb249d2b80bd"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js",
+      "source_sha256": "3251c996ac03d26d36a239c83005c557c0a6c67b67e702f56f750edbd7e378b1",
+      "source_manifest_sha256": "3251c996ac03d26d36a239c83005c557c0a6c67b67e702f56f750edbd7e378b1",
+      "sha256": "3251c996ac03d26d36a239c83005c557c0a6c67b67e702f56f750edbd7e378b1"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js",
+      "source_sha256": "3a7ea263ae86afc4634e2aad459eba2433afd9f853a655cfcf354ab2e12a6411",
+      "source_manifest_sha256": "3a7ea263ae86afc4634e2aad459eba2433afd9f853a655cfcf354ab2e12a6411",
+      "sha256": "3a7ea263ae86afc4634e2aad459eba2433afd9f853a655cfcf354ab2e12a6411"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js",
+      "source_sha256": "353182ef250caa5f34c8cfea3dafa2d36f072ff95f08c82e199dfe3967b6b189",
+      "source_manifest_sha256": "353182ef250caa5f34c8cfea3dafa2d36f072ff95f08c82e199dfe3967b6b189",
+      "sha256": "353182ef250caa5f34c8cfea3dafa2d36f072ff95f08c82e199dfe3967b6b189"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/JavaScript/Zhihu/Zhihu_remove_ads.js",
+      "source_sha256": "7691147ea4e8b438e016c5190bdc4dc819f9f6bbd01f028f17359bd9e9a65a68",
+      "source_manifest_sha256": "7691147ea4e8b438e016c5190bdc4dc819f9f6bbd01f028f17359bd9e9a65a68",
+      "sha256": "7691147ea4e8b438e016c5190bdc4dc819f9f6bbd01f028f17359bd9e9a65a68"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js",
+      "source_sha256": "c3dc933b491694109a574b16ed1d77eaf4910ff935bbc53abb8273ae2a907bf6",
+      "source_manifest_sha256": "c3dc933b491694109a574b16ed1d77eaf4910ff935bbc53abb8273ae2a907bf6",
+      "sha256": "c3dc933b491694109a574b16ed1d77eaf4910ff935bbc53abb8273ae2a907bf6"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js",
+      "source_sha256": "99f0cb061fa85077569a3ac91500ec21ec7ce06260a98d786978369820d8c825",
+      "source_manifest_sha256": "99f0cb061fa85077569a3ac91500ec21ec7ce06260a98d786978369820d8c825",
+      "sha256": "99f0cb061fa85077569a3ac91500ec21ec7ce06260a98d786978369820d8c825"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js",
+      "source_sha256": "5a5e8fdc4d375f4edea088565f9fa2aa8709518bc1ff60ba1eee519bfc8c180f",
+      "source_manifest_sha256": "5a5e8fdc4d375f4edea088565f9fa2aa8709518bc1ff60ba1eee519bfc8c180f",
+      "sha256": "5a5e8fdc4d375f4edea088565f9fa2aa8709518bc1ff60ba1eee519bfc8c180f"
+    },
+    {
+      "path": "modules/egern/scripts/vendor/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js",
+      "source_sha256": "c1fc6ca446ebffcd5829fab93f2bff5220602f081148568cff24de50794983ca",
+      "source_manifest_sha256": "c1fc6ca446ebffcd5829fab93f2bff5220602f081148568cff24de50794983ca",
+      "sha256": "c1fc6ca446ebffcd5829fab93f2bff5220602f081148568cff24de50794983ca"
+    },
+    {
+      "path": "modules/egern/scripts/widgets/airport-traffic.js",
+      "source_sha256": "cb0192833fdf5ca00315910709f32e621b3edc26c447100b7a4d7a4e0894baa3",
+      "source_manifest_sha256": "cb0192833fdf5ca00315910709f32e621b3edc26c447100b7a4d7a4e0894baa3",
+      "sha256": "cb0192833fdf5ca00315910709f32e621b3edc26c447100b7a4d7a4e0894baa3"
+    },
+    {
+      "path": "modules/egern/scripts/widgets/ip-datacenter.js",
+      "source_sha256": "5d9612143fe8e98a04e512d3d1bfcbc8dce7938b714c2af70e5363992445460b",
+      "source_manifest_sha256": "5d9612143fe8e98a04e512d3d1bfcbc8dce7938b714c2af70e5363992445460b",
+      "sha256": "5d9612143fe8e98a04e512d3d1bfcbc8dce7938b714c2af70e5363992445460b"
+    },
+    {
+      "path": "modules/egern/scripts/widgets/netspeed.js",
+      "source_sha256": "28eabe281cfc9c69b4c0e7c4636d73625d201cf42cb7feca32444cb6edbad2d3",
+      "source_manifest_sha256": "28eabe281cfc9c69b4c0e7c4636d73625d201cf42cb7feca32444cb6edbad2d3",
+      "sha256": "28eabe281cfc9c69b4c0e7c4636d73625d201cf42cb7feca32444cb6edbad2d3"
+    },
+    {
+      "path": "modules/egern/scripts/widgets/proxy-check.js",
+      "source_sha256": "45cd4e714ddcf0c14b79acb64cd1a2e1b753607fdf6516837faad65aaf89529b",
+      "source_manifest_sha256": "45cd4e714ddcf0c14b79acb64cd1a2e1b753607fdf6516837faad65aaf89529b",
+      "sha256": "45cd4e714ddcf0c14b79acb64cd1a2e1b753607fdf6516837faad65aaf89529b"
+    },
+    {
+      "path": "modules/egern/scripts/widgets/weather.js",
+      "source_sha256": "7a11d6c32c441ed4e98051c4ca9465479f1827ab5354b252740ddc4efd1b2054",
+      "source_manifest_sha256": "7a11d6c32c441ed4e98051c4ca9465479f1827ab5354b252740ddc4efd1b2054",
+      "sha256": "7a11d6c32c441ed4e98051c4ca9465479f1827ab5354b252740ddc4efd1b2054"
+    }
+  ]
+}

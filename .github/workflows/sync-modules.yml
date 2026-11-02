@@ -7,9 +7,9 @@ on:
     - cron: "47 20 * * *"
   push:
     branches: [main]
-    paths: ["modules/**", "tools/sync_modules.py", "tools/test_modules.py", "tools/build_dist_manifest.py", ".github/workflows/sync-modules.yml"]
+    paths: ["modules/**", "tools/sync_modules.py", "tools/test_modules.py", "tools/sync_egern_plugins.py", "tools/test_egern_plugins.py", "tools/build_dist_manifest.py", ".github/workflows/sync-modules.yml"]
   pull_request:
-    paths: ["modules/**", "tools/sync_modules.py", "tools/test_modules.py", "tools/build_dist_manifest.py", ".github/workflows/sync-modules.yml"]
+    paths: ["modules/**", "tools/sync_modules.py", "tools/test_modules.py", "tools/sync_egern_plugins.py", "tools/test_egern_plugins.py", "tools/build_dist_manifest.py", ".github/workflows/sync-modules.yml"]
 
 permissions:
   contents: write
@@ -36,6 +36,8 @@ jobs:
         run: python3 -m unittest discover -s tools -p 'test_*.py'
       - name: Refresh modules and all declared script dependencies
         run: python3 tools/sync_modules.py
+      - name: Mirror existing Egern plugins and dependencies
+        run: python3 tools/sync_egern_plugins.py
       - name: Update published-file manifest
         run: python3 tools/build_dist_manifest.py
       - name: Report source freshness

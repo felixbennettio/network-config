@@ -22,7 +22,8 @@ class DNSPublicationTests(unittest.TestCase):
         (self.root / "RULE_PRIORITIES.json").write_text(
             json.dumps({"priorities": {"direct": 100, "rule42": 200}}), encoding="utf-8"
         )
-        (self.root / "rule42_add.list").write_text(
+        (self.root / "ruleset").mkdir()
+        (self.root / "ruleset/rule42_add.list").write_text(
             "DOMAIN-SUFFIX,priority.example\nDOMAIN-KEYWORD,cloud\n", encoding="utf-8"
         )
         self.ip_rules = [
@@ -53,7 +54,7 @@ class DNSPublicationTests(unittest.TestCase):
         self.assertEqual(build_rules.main(), 0)
 
     def test_full_build_keeps_ip_routing_and_projects_after_priorities(self) -> None:
-        canonical = check_rule_order.data_lines(self.root / "direct.list")
+        canonical = check_rule_order.data_lines(self.root / "ruleset/direct.list")
         for rule in self.ip_rules:
             self.assertIn(rule, canonical)
         self.assertNotIn("DOMAIN-SUFFIX,priority.example", canonical)
@@ -66,7 +67,7 @@ class DNSPublicationTests(unittest.TestCase):
         self.assertEqual(check_rule_order.main(), 0)
         published = discover_published_files(self.root)
         for name in ("direct", "rule42"):
-            for path in (f"{name}.list", f"dns/{name}.list", f"oxidns/{name}.txt"):
+            for path in (f"ruleset/{name}.list", f"dns/{name}.list", f"oxidns/{name}.txt"):
                 self.assertIn(path, published)
 
     def test_validation_rejects_ip_leaks_and_missing_keywords(self) -> None:
@@ -82,9 +83,9 @@ class DNSPublicationTests(unittest.TestCase):
                     check_rule_order.check_canonical("direct")
 
     def test_ip_only_custom_list_keeps_routes_and_publishes_empty_dns_list(self) -> None:
-        (self.root / "only_ip.list").write_text(self.ip_rules[0] + "\n", encoding="utf-8")
+        (self.root / "ruleset/only_ip.list").write_text(self.ip_rules[0] + "\n", encoding="utf-8")
         self.assertEqual(build_rules.main(), 0)
-        self.assertEqual(check_rule_order.data_lines(self.root / "only_ip.list"), [self.ip_rules[0]])
+        self.assertEqual(check_rule_order.data_lines(self.root / "ruleset/only_ip.list"), [self.ip_rules[0]])
         self.assertEqual(check_rule_order.data_lines(self.root / "dns/only_ip.list"), [])
         self.assertIn("dns/only_ip.list", discover_published_files(self.root))
         self.assertEqual(check_rule_order.main(), 0)

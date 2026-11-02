@@ -27,13 +27,13 @@ def addition_files(root: Path, name: str) -> list[Path]:
     return [
         path
         for suffix in ADDITION_SUFFIXES
-        if (path := root / f"{name}{suffix}.list").is_file()
+        if (path := root / "ruleset" / f"{name}{suffix}.list").is_file()
     ]
 
 
 def discover_addition_files(root: Path) -> list[Path]:
     return sorted(
-        (path for path in root.glob("*.list") if is_addition_file(path)),
+        (path for path in (root / "ruleset").glob("*.list") if is_addition_file(path)),
         key=lambda path: path.name.casefold(),
     )
 
@@ -41,6 +41,6 @@ def discover_addition_files(root: Path) -> list[Path]:
 def discover_rule_names(root: Path, built_in_names: Iterable[str] = ()) -> list[str]:
     """Discover canonical rule-set names without a hard-coded allow-list."""
     names = set(built_in_names)
-    for path in root.glob("*.list"):
+    for path in (root / "ruleset").glob("*.list"):
         names.add(addition_base(path) or path.stem)
     return sorted((name for name in names if name), key=str.casefold)

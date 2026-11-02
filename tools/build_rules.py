@@ -506,12 +506,13 @@ def ensure_add_files() -> None:
         "reject_add.list": "# Manual reject rules. One portable classical rule per line.\n",
     }
     for filename, content in templates.items():
-        path = ROOT / filename
+        path = ROOT / "ruleset" / filename
         if not path.exists():
             path.write_text(content, encoding="utf-8")
 
 
 def main() -> int:
+    (ROOT / "ruleset").mkdir(parents=True, exist_ok=True)
     ensure_add_files()
 
     # Discover before writing so any newly added <name>.list or <name>_add.list
@@ -538,7 +539,7 @@ def main() -> int:
         if name in raw_rules:
             continue
         raw_rules[name] = dedupe_keep_order(
-            read_local_rules(ROOT / f"{name}.list") + read_addition_rules(ROOT, name)
+            read_local_rules(ROOT / "ruleset" / f"{name}.list") + read_addition_rules(ROOT, name)
         )
         titles[name] = f"Consolidated {name} rules"
 
@@ -547,7 +548,7 @@ def main() -> int:
     for name in rule_names:
         rules = canonical_rules[name]
         title = titles[name]
-        write_rules(ROOT / f"{name}.list", title, rules)
+        write_rules(ROOT / "ruleset" / f"{name}.list", title, rules)
         write_dns_rules(DNS_DIR / f"{name}.list", title, rules)
         write_oxidns_rules(OXIDNS_DIR / f"{name}.txt", title, rules)
 

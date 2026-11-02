@@ -1,6 +1,6 @@
-# proxy_rules
+# network-config
 
-`proxy_rules` is a consolidated proxy-rule repository for Surge, mihomo, Egern, Loon, OxiDNS, and other clients that consume remote rule lists.
+`network-config` is a network configuration repository with consolidated routing rules, DNS rules, modules, scripts, and GeoX assets for Surge, mihomo, Egern, Loon, OxiDNS, and other clients that consume remote rule lists.
 
 The repository provides portable rule lists, Surge DNS mapping lists, OxiDNS domain sets, and mirrored GeoX assets. Client configurations should reference this repository instead of depending on many upstream sources directly.
 
@@ -95,7 +95,7 @@ of editing the generated canonical file directly.
 
 ## Surge DNS mapping files
 
-Use root-level lists such as `direct.list` and `proxy.list` in Surge's `[Rule]`
+Use `ruleset/` lists such as `ruleset/direct.list` and `ruleset/proxy.list` in Surge's `[Rule]`
 section. They retain all domain and IP rules for traffic routing.
 
 Use `dns/<name>.list` in `[Host]` to choose a DNS server by domain. These lists
@@ -105,13 +105,13 @@ not `DOMAIN-SET`, to preserve keyword matching.
 
 ```ini
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/felixbennettio/proxy_rules/main/proxy.list,Proxy
-RULE-SET,https://raw.githubusercontent.com/felixbennettio/proxy_rules/main/direct.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/felixbennettio/network-config/main/ruleset/proxy.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/felixbennettio/network-config/main/ruleset/direct.list,DIRECT
 FINAL,Proxy
 
 [Host]
-RULE-SET:https://raw.githubusercontent.com/felixbennettio/proxy_rules/main/dns/direct.list = server:https://dns.alidns.com/dns-query
-RULE-SET:https://raw.githubusercontent.com/felixbennettio/proxy_rules/main/dns/proxy.list = server:https://dns.google/dns-query
+RULE-SET:https://raw.githubusercontent.com/felixbennettio/network-config/main/dns/direct.list = server:https://dns.alidns.com/dns-query
+RULE-SET:https://raw.githubusercontent.com/felixbennettio/network-config/main/dns/proxy.list = server:https://dns.google/dns-query
 ```
 
 The example assumes a policy named `Proxy`; use your own policies and DNS
@@ -154,8 +154,8 @@ Use these URLs in mihomo `geox-url` configuration:
 
 ```yaml
 geox-url:
-  geoip: https://raw.githubusercontent.com/felixbennettio/proxy_rules/main/geox/geoip.dat
-  geosite: https://raw.githubusercontent.com/felixbennettio/proxy_rules/main/geox/geosite.dat
+  geoip: https://raw.githubusercontent.com/felixbennettio/network-config/main/geox/geoip.dat
+  geosite: https://raw.githubusercontent.com/felixbennettio/network-config/main/geox/geosite.dat
 ```
 
 ## GitHub rule URLs
@@ -163,10 +163,10 @@ geox-url:
 Use GitHub Raw file URLs in client subscriptions:
 
 ```text
-https://raw.githubusercontent.com/felixbennettio/proxy_rules/main/<file>
+https://raw.githubusercontent.com/felixbennettio/network-config/main/<file>
 ```
 
-Replace `<file>` with the repository-relative path, such as `ai.list`,
+Replace `<file>` with the repository-relative path, such as `ruleset/ai.list`,
 `dns/direct.list`, or `oxidns/ai.txt`. GitHub `blob` pages are HTML pages;
 use the Raw URL above when a client needs the rule file itself.
 
@@ -182,3 +182,9 @@ tools/build_dist_manifest.py
 ```
 
 The workflow can also be triggered manually from GitHub Actions.
+
+Portable routing lists and their manual `<name>_add.list` inputs live in `ruleset/`. DNS-only projections remain in `dns/` and `oxidns/`.
+
+### Private Egern distribution
+
+`modules/egern/` mirrors the existing public `felixbennettio/proxy_plugins` snapshot, preserving module behavior and source hashes. Module script/rule URLs use project 13 with a `GitLabToken` argument. Egern references supply that value through `compat_arguments.GitLabToken`; actual tokens must never be committed. `WLOC.json` records the separately mirrored Wloc module and script sources. `tools/sync_egern_plugins.py` refreshes these assets as part of the daily module workflow.
