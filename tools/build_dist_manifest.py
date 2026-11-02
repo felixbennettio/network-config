@@ -8,16 +8,16 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = ROOT / "DIST_MANIFEST.json"
 
 # Single source of truth for generated files committed to this GitHub repository.
-# Root-level portable rule lists, generated DNS rule files, and GeoX assets are published.
+# Portable ruleset/ rule lists, generated DNS rule files, and GeoX assets are published.
 def discover_published_files(root: Path) -> tuple[str, ...]:
     return tuple(
         sorted(
-            [path.name for path in root.glob("*.list")]
+            [str(path.relative_to(root)) for path in (root / "ruleset").glob("*.list")]
             + [str(path.relative_to(root)) for path in (root / "dns").glob("*.list")]
             + [str(path.relative_to(root)) for path in (root / "oxidns").glob("*.txt")]
             + [str(path.relative_to(root)) for path in (root / "geox").glob("*.dat")]
             + [str(path.relative_to(root)) for path in (root / "modules").rglob("*")
-               if path.is_file() and path.suffix in {".sgmodule", ".js", ".json"}]
+               if path.is_file() and path.suffix in {".sgmodule", ".srmodule", ".yaml", ".js", ".list", ".json"}]
         )
     )
 
@@ -31,7 +31,7 @@ def main() -> int:
 
     manifest = {
         "schema_version": 1,
-        "repository": "felixbennettio/proxy_rules",
+        "repository": "felixbennettio/network-config",
         "files": list(published_files),
     }
     MANIFEST_PATH.write_text(

@@ -1,0 +1,21 @@
+#!name=Script Hub: 重写 & 规则集转换
+#!desc=https://script.hub
+#!author=@小白脸 @xream @keywos @ckyb
+#!category=工具
+#!arguments=Notify:开启通知,GitLabToken:""
+#!arguments-desc=Notify:\nScriptHub通知设置, 可选 开启通知, 关闭通知, 跟随链接
+
+[General]
+force-http-engine-hosts = %APPEND% script.hub, *.script.hub
+
+[Script]
+Script Hub: 前端 = type=http-request, pattern=^https?:\/\/script\.hub\/($|edit\/|reload), script-path=https://git.routeforge.zone/api/v4/projects/13/repository/files/modules%2Fegern%2Fscripts%2Fvendor%2FScript-Hub-Org%2FScript-Hub%2Fscript-hub.js/raw?ref=main&private_token={{{GitLabToken}}}, timeout=300
+
+Script Hub: 重写转换 = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module), script-path=https://git.routeforge.zone/api/v4/projects/13/repository/files/modules%2Fegern%2Fscripts%2Fvendor%2FScript-Hub-Org%2FScript-Hub%2FRewrite-Parser.js/raw?ref=main&private_token={{{GitLabToken}}}, timeout=300, argument=Notify={{{Notify}}}
+
+Script Hub: 规则集转换 = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set, script-path=https://git.routeforge.zone/api/v4/projects/13/repository/files/modules%2Fegern%2Fscripts%2Fvendor%2FScript-Hub-Org%2FScript-Hub%2Frule-parser.js/raw?ref=main&private_token={{{GitLabToken}}}, timeout=300, argument=Notify={{{Notify}}}
+
+Script Hub: 脚本转换 = type=http-request, pattern=^https?:\/\/script\.hub\/convert\/, script-path=https://git.routeforge.zone/api/v4/projects/13/repository/files/modules%2Fegern%2Fscripts%2Fvendor%2FScript-Hub-Org%2FScript-Hub%2Fscript-converter.js/raw?ref=main&private_token={{{GitLabToken}}}, timeout=300
+
+[MITM]
+hostname = %APPEND% script.hub, *.script.hub

@@ -1,0 +1,21 @@
+# WLOC Control Center
+# Worker: https://wloc.app
+# Version: 1.1.1
+# Mode: diagnostic · Accuracy: 25m · Log: info
+# Coordinates are local-first. Device Bridge saved values take priority over defaults.
+
+#!name=WLOC Control Center
+#!desc=Local-first WLOC profile, status bridge, diagnostics, and response patching.
+#!author=WLOC Control Center
+#!homepage=https://wloc.app
+#!category=Tools
+#!arguments=longitude:, latitude:, accuracy:25, logLevel:info, mode:diagnostic,GitLabToken:""
+#!arguments-desc=longitude/latitude: optional default coordinate. Device Bridge saved values take priority.
+
+[Script]
+WLOC Status Bridge = type=http-request, pattern="^https?:\/\/gs-loc(-cn)?\.apple\.com\/wloc-settings\/(ping|status|save|clear|export|diag)", requires-body=0, max-size=0, timeout=10, script-path=https://git.routeforge.zone/api/v4/projects/13/repository/files/modules%2Fegern%2Fwloc%2Fwloc-settings.js/raw?ref=main&private_token={{{GitLabToken}}}, argument=accuracy=25&mode=diagnostic&logLevel=info&worker=https%3A%2F%2Fwloc.app
+WLOC Route Control = type=http-request, pattern="^https?:\/\/gs-loc(-cn)?\.apple\.com\/wloc-route\/(ping|save|start|pause|resume|stop|clear|status)", requires-body=0, max-size=0, timeout=10, script-path=https://git.routeforge.zone/api/v4/projects/13/repository/files/modules%2Fegern%2Fwloc%2Fwloc-route.js/raw?ref=main&private_token={{{GitLabToken}}}, argument=accuracy=25&mode=diagnostic&logLevel=info&worker=https%3A%2F%2Fwloc.app
+WLOC Response Patch = type=http-response, pattern="^https?:\/\/gs-loc(-cn)?\.apple\.com\/clls\/wloc", requires-body=1, binary-body-mode=1, max-size=0, timeout=30, script-path=https://git.routeforge.zone/api/v4/projects/13/repository/files/modules%2Fegern%2Fwloc%2Fwloc.js/raw?ref=main&private_token={{{GitLabToken}}}, argument=accuracy=25&mode=diagnostic&logLevel=info&worker=https%3A%2F%2Fwloc.app
+
+[MITM]
+hostname = %APPEND% gs-loc.apple.com, gs-loc-cn.apple.com

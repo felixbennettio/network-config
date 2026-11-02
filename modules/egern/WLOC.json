@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "url": "https://wloc.app/modules/wloc.sgmodule",
+      "sha256": "bb9508d30039aa57ff2835d977d3abb59e9f7234e4d09c6d81ddc923ba08e3eb"
+    },
+    {
+      "url": "https://wloc.app/scripts/wloc-route.js?v=1.1.1",
+      "path": "modules/egern/wloc/wloc-route.js",
+      "sha256": "80c40669064196c1ae4ccf1b277ce4af74413e7a6da05173cce39b2567bb7935"
+    },
+    {
+      "url": "https://wloc.app/scripts/wloc-settings.js?v=1.1.1",
+      "path": "modules/egern/wloc/wloc-settings.js",
+      "sha256": "f528763b96b9be1903aead42a4449d872c0c88acce25c0f48229f099af13475b"
+    },
+    {
+      "url": "https://wloc.app/scripts/wloc.js?v=1.1.1",
+      "path": "modules/egern/wloc/wloc.js",
+      "sha256": "c796b7ec0252cde712260f3be41826cd564299b03967907fc052d40d86cc7a0b"
+    }
+  ]
+}

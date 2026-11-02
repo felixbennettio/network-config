@@ -18,7 +18,7 @@ on:
       - "tools/fetch_geox.py"
       - "RULE_PRIORITIES.json"
       - "DIST_MANIFEST.json"
-      - "*.list"
+      - "ruleset/**"
       - "dns/**"
       - "oxidns/**"
       - "geox/**"

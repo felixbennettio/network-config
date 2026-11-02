@@ -20,7 +20,7 @@ def data_lines(path: Path) -> list[str]:
 
 
 def check_canonical(name: str) -> None:
-    path = ROOT / f"{name}.list"
+    path = ROOT / "ruleset" / f"{name}.list"
     rules = read_local_rules(path)
     if rules != sort_and_dedupe_rules(rules):
         raise ValueError(f"{path.name} is not sorted and deduplicated")
