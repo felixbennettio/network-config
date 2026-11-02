@@ -3,3 +3,4 @@
 # Supported portable rule types: DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, IP-CIDR, IP-CIDR6, IP-ASN.
 
 DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,cloud.zed.dev
