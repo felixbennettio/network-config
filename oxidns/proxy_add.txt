@@ -46,6 +46,7 @@ domain:mod.fileto.download
 domain:neofeed.org
 domain:ni.com
 domain:proxifier.com
+domain:redteago.com
 domain:sessionserver.mojang.com
 domain:shuzijumin.com
 domain:smoot.apple.com
