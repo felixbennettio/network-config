@@ -258,6 +258,7 @@ full:holoxx.f5.si
 full:homebrew.bintray.com
 full:hpefonts.s3.amazonaws.com
 full:hpstore.corpmerchandise.com
+full:http-intake.logs.us5.datadoghq.com
 full:hub.slarker.me
 full:hulu.playback.edge.bamgrid.com
 full:i.jeded.com
@@ -366,6 +367,7 @@ full:prd-priconne-redive.akamaized.net
 full:preprod-publicca.googleapis.com
 full:prod-api.crackle.com
 full:prodforza.blob.core.windows.net
+full:production-copilot-host-westus.webpubsub.azure.com
 full:productionresultssa0.blob.core.windows.net
 full:productionresultssa1.blob.core.windows.net
 full:productionresultssa10.blob.core.windows.net
@@ -12244,6 +12246,7 @@ domain:greginhollywood.com
 domain:grep.app
 domain:gridaware.app
 domain:grindr.com
+domain:grokbot.com
 domain:grokipedia.com
 domain:grooby.com
 domain:grotty-monday.com
