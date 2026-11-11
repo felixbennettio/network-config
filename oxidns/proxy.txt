@@ -12176,6 +12176,7 @@ domain:grabpussy.com
 domain:gradconnection.com
 domain:gradeuptube.com
 domain:grafana.com
+domain:grafana.net
 domain:grafolio.com
 domain:graias.com
 domain:graiasmovies.com
@@ -21747,6 +21748,7 @@ domain:quantil.com
 domain:quatrowireless.com
 domain:quatrum.com.br
 domain:quay.io
+domain:questionablequesting.com
 domain:questvisual.com
 domain:quicinc.com
 domain:quickbook.com.br
@@ -23950,6 +23952,7 @@ domain:soyjak.st
 domain:soylent.com
 domain:soylentnews.org
 domain:sp.cool
+domain:spacebattles.com
 domain:spaceexplored.com
 domain:spaceforce.mil
 domain:spacely.com.au
