@@ -34827,7 +34827,6 @@ domain:fxjia.shop
 domain:fxkedu.com
 domain:fxlbb.com
 domain:fxlbl.com
-domain:fxltsbl.com
 domain:fxm.so
 domain:fxo2opt.com
 domain:fxpai.com
