@@ -5,6 +5,7 @@
 # IP rules are intentionally omitted because OxiDNS domain_set matches qname only.
 
 full:ai.google.dev
+full:aicode.googleapis.com
 full:aida.googleapis.com
 full:aisandbox-pa.googleapis.com
 full:aistudio.google.com
@@ -24,10 +25,12 @@ full:bard.google.com
 full:browser-intake-datadoghq.com
 full:cdn.usefathom.com
 full:chat.openai.com.cdn.cloudflare.net
+full:cloud.zed.dev
 full:console.groq.com
 full:copilot-proxy.githubusercontent.com
 full:copilot.microsoft.com
 full:daily-cloudcode-pa.googleapis.com
+full:daily-cloudcode-pa.sandbox.googleapis.com
 full:file.oaiusercontent.com
 full:gateway.ai.cloudflare.com
 full:gateway.bingviz.microsoft.net

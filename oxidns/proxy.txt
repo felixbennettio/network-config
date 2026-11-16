@@ -74,6 +74,7 @@ full:bnetcmsus-a.akamaihd.net
 full:bnetproduct-a.akamaihd.net
 full:bnetshopus.akamaized.net
 full:brightcove.imgix.net
+full:builds.dotnet.microsoft.com
 full:bybit-exchange.github.io
 full:bybit.ada.support
 full:c.ppy.sh
@@ -178,6 +179,7 @@ full:dlmobilegarena-a.akamaihd.net
 full:dmqdd6hw24ucf.cloudfront.net
 full:docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
 full:docker-pinata-support.s3.amazonaws.com
+full:dotnetcli.trafficmanager.net
 full:doy2mn9upadnk.cloudfront.net
 full:dqd0jw5gvbchn.cloudfront.net
 full:dqrpb9wgowsf5.cloudfront.net
@@ -527,6 +529,7 @@ full:steamuserimages-a.akamaihd.net
 full:steamvideo-a.akamaihd.net
 full:store.ui.com.cn
 full:straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
+full:sundry-star-net-geo.trafficmanager.net
 full:supercell.helpshift.com
 full:supercell.zendesk.com
 full:t21.nikkei.co.jp
@@ -7604,6 +7607,7 @@ domain:dealtree.org
 domain:deasians.com
 domain:debank.com
 domain:debian.org
+domain:debot.ai
 domain:debug.com
 domain:debuggex.com
 domain:debugproject.com
@@ -22148,6 +22152,7 @@ domain:releaseinternational.org
 domain:religionnews.com
 domain:religioustolerance.org
 domain:remirepo.net
+domain:remna.dev
 domain:remna.st
 domain:rencapbank.ru
 domain:renchead.com
