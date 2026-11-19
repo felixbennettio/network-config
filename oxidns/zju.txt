@@ -283,4 +283,5 @@ domain:yiigle.com
 domain:yunpub.cn
 domain:zhihuiya.com
 domain:zju.edu.cn
+domain:zjuqsc.com
 domain:zlzx.org

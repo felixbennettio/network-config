@@ -31,7 +31,6 @@ DOMAIN-SUFFIX,aps.org
 DOMAIN-SUFFIX,arabidopsis.org
 DOMAIN-SUFFIX,artstor.org
 DOMAIN-SUFFIX,asabe.org
-DOMAIN-SUFFIX,zjuqsc.com
 DOMAIN-SUFFIX,asas.org
 DOMAIN-SUFFIX,ascelibrary.org
 DOMAIN-SUFFIX,ascopubs.org
@@ -282,6 +281,7 @@ DOMAIN-SUFFIX,yiigle.com
 DOMAIN-SUFFIX,yunpub.cn
 DOMAIN-SUFFIX,zhihuiya.com
 DOMAIN-SUFFIX,zju.edu.cn
+DOMAIN-SUFFIX,zjuqsc.com
 DOMAIN-SUFFIX,zlzx.org
 IP-CIDR,210.32.133.0/24,no-resolve
 IP-CIDR,210.32.137.0/24,no-resolve
