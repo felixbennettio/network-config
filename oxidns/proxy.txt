@@ -9135,6 +9135,7 @@ domain:elephanttube.com
 domain:elephanttubenew.com
 domain:elevenlabs.com
 domain:elevenlabs.io
+domain:elevenlabsusercontent.com
 domain:elgaronline.com
 domain:elgoog.im
 domain:elifesciences.org
@@ -29218,7 +29219,6 @@ domain:yandexdataschool.ru
 domain:yandexgo.com
 domain:yandexlyceum.ru
 domain:yandexwebcache.net
-domain:yandexwebcache.org
 domain:yanghengjun.com
 domain:yangjianli.com
 domain:yango-b2b.com
