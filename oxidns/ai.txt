@@ -22,9 +22,11 @@ full:api.statsig.com
 full:api.together.xyz
 full:assets.msn.com
 full:bard.google.com
+full:bridge.claudeusercontent.com
 full:browser-intake-datadoghq.com
 full:cdn.usefathom.com
 full:chat.openai.com.cdn.cloudflare.net
+full:claude.site
 full:cloud.zed.dev
 full:console.groq.com
 full:copilot-proxy.githubusercontent.com

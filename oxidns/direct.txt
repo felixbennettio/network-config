@@ -85410,7 +85410,6 @@ domain:tencent.com
 domain:tencent.com.hk
 domain:tencent.design
 domain:tencent.net
-domain:tencentads.com
 domain:tencentads.net
 domain:tencentanxin.com
 domain:tencentapis.com

@@ -20,9 +20,11 @@ DOMAIN,api.statsig.com
 DOMAIN,api.together.xyz
 DOMAIN,assets.msn.com
 DOMAIN,bard.google.com
+DOMAIN,bridge.claudeusercontent.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cdn.usefathom.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,claude.site
 DOMAIN,cloud.zed.dev
 DOMAIN,console.groq.com
 DOMAIN,copilot-proxy.githubusercontent.com
