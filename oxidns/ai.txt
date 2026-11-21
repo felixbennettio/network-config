@@ -71,6 +71,7 @@ domain:apis.google.com
 domain:auth0.com
 domain:bard.google.com
 domain:bing-shopping.microsoft-falcon.io
+domain:caffeine.ai
 domain:challenges.cloudflare.com
 domain:chat.com
 domain:chatgpt.com
