@@ -20,7 +20,6 @@ DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,klaviyo.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,dl.google.com
 DOMAIN-SUFFIX,duolinguo.com
@@ -36,6 +35,7 @@ DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,itellyou.cn
+DOMAIN-SUFFIX,klaviyo.com
 DOMAIN-SUFFIX,letsbuildthe.cloud
 DOMAIN-SUFFIX,linuxcontainers.org
 DOMAIN-SUFFIX,live.com
