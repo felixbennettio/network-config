@@ -24,6 +24,7 @@ domain:apple-relay.mask.apple-dns.net
 domain:cp4.cloudflare.com
 domain:cursor.com
 domain:dl.google.com
+domain:duolingo.com
 domain:duolinguo.com
 domain:ggpht.com
 domain:glavo.site
@@ -52,6 +53,8 @@ domain:sessionserver.mojang.com
 domain:shuzijumin.com
 domain:smoot.apple.com
 domain:sws-gateway-nr.schwab.com
+domain:tigo.com.sv
+domain:tigocloud.net
 domain:ultramobile.com
 domain:uscardforum.com
 domain:wireguard.com

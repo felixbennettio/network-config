@@ -14,8 +14,6 @@ DOMAIN,www.alicesw.com
 DOMAIN-SUFFIX,api-status.longbridgeapp.com
 DOMAIN-SUFFIX,api.lbkrs.com
 DOMAIN-SUFFIX,api.tholeapis.top
-DOMAIN-SUFFIX,tigocloud.net
-DOMAIN-SUFFIX,tigo.com.sv
 DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
@@ -24,11 +22,11 @@ DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-SUFFIX,cp4.cloudflare.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,dl.google.com
+DOMAIN-SUFFIX,duolingo.com
 DOMAIN-SUFFIX,duolinguo.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,glavo.site
 DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,duolingo.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleusercontent.com
@@ -53,6 +51,8 @@ DOMAIN-SUFFIX,sessionserver.mojang.com
 DOMAIN-SUFFIX,shuzijumin.com
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,sws-gateway-nr.schwab.com
+DOMAIN-SUFFIX,tigo.com.sv
+DOMAIN-SUFFIX,tigocloud.net
 DOMAIN-SUFFIX,ultramobile.com
 DOMAIN-SUFFIX,uscardforum.com
 DOMAIN-SUFFIX,wireguard.com

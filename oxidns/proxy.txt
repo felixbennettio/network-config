@@ -25328,6 +25328,8 @@ domain:tigerbrokers.net
 domain:tigerbrokers.nz
 domain:tigerfintech.com
 domain:tigervpn.com
+domain:tigo.com.sv
+domain:tigocloud.net
 domain:tik-tokapi.com
 domain:tiktok-minis.com
 domain:tiktok-row.net
