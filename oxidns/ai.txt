@@ -38,12 +38,15 @@ full:gateway.ai.cloudflare.com
 full:gateway.bingviz.microsoft.net
 full:gateway.bingviz.microsoftapp.net
 full:gemini.google.com
+full:geminiweb-pa.clients.google.com
+full:geminiweb-pa.clients6.google.com
 full:generativelanguage.googleapis.com
 full:in.appcenter.ms
 full:inference.codeium.com
 full:jules.google.com
 full:location.microsoft.com
 full:makersuite.google.com
+full:notebooklm-pa.googleapis.com
 full:notebooklm.google.com
 full:odc.officeapps.live.com
 full:openai-api.arkoselabs.com
@@ -136,6 +139,7 @@ domain:turn.livekit.cloud
 domain:x.ai
 keyword:alkalimakersuite-pa.clients6.google.com
 keyword:anthropic
+keyword:antigravity
 keyword:claude
 keyword:colab
 keyword:developerprofiles

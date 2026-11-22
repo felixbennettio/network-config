@@ -33,8 +33,6 @@ full:ana.video.friday.tw
 full:android.googlesource.com
 full:angle.com.tw
 full:anime-rule34-world.b-cdn.net
-full:antigravity-pa.googleapis.com
-full:antigravity.googleapis.com
 full:aod-pod-uk-live.akamaized.net
 full:api-p.videomarket.jp
 full:api.ipapi.is
@@ -228,8 +226,6 @@ full:funko.my.site.com
 full:gamedownloads-rockstargames-com.akamaized.net
 full:gamer-cds.cdn.hinet.net
 full:gamer2-cds.cdn.hinet.net
-full:geminiweb-pa.clients.google.com
-full:geminiweb-pa.clients6.google.com
 full:gigabyte2.azureedge.net
 full:github-api.arkoselabs.com
 full:github-cloud.s3.amazonaws.com
@@ -312,7 +308,6 @@ full:news.ycombinator.com
 full:nix-community.github.io
 full:notary-submissions-prod.s3-accelerate.amazonaws.com
 full:notary-submissions-prod.s3.us-west-2.amazonaws.com
-full:notebooklm-pa.googleapis.com
 full:notebooklm.googleapis.com
 full:notify.ppy.sh
 full:np-edge.itunes.apple.com
@@ -5496,6 +5491,7 @@ domain:bravoporn.com
 domain:bravoteens.com
 domain:bravotube.net
 domain:bravotube.tv
+domain:bravotv.com
 domain:brawlstars.com
 domain:brawlstarsgame.com
 domain:brazilpartneruniversity.com
@@ -6847,6 +6843,7 @@ domain:cna.com.tw
 domain:cnabc.com
 domain:cnbbnews.wordpress.com
 domain:cnbc.com
+domain:cnbccouncils.com
 domain:cnbcfm.com
 domain:cnbeta.com
 domain:cnbeta.com.tw
@@ -9969,6 +9966,7 @@ domain:fantom.foundation
 domain:fantom.network
 domain:fantv.hk
 domain:fanyue.info
+domain:fanza.jp
 domain:fap-xxx.com
 domain:fap18.net
 domain:fap666.com
@@ -10457,6 +10455,7 @@ domain:fnlondon.com
 domain:fnmt.es
 domain:foampositeshoes.com
 domain:fochk.org
+domain:focusfeatures.com
 domain:focustaiwan.tw
 domain:focusvpn.com
 domain:fofg-europe.net
@@ -12446,6 +12445,7 @@ domain:hayabusa.io
 domain:hayabusa.media
 domain:hayday.com
 domain:haydaygame.com
+domain:hayu.com
 domain:hayya.ae
 domain:hbabit.com
 domain:hbfile.net
@@ -13969,6 +13969,7 @@ domain:ilife.gr
 domain:ilife.wang
 domain:illawarramercury.com.au
 domain:illgames.jp
+domain:illumination.com
 domain:illusion111.com
 domain:illusionas.com
 domain:illusionchn.com
@@ -18100,7 +18101,6 @@ domain:msk.kitazawa.me
 domain:msn.com
 domain:msn.com.tw
 domain:msn.net
-domain:msnbc.com
 domain:msnewskids.com
 domain:msnewskids.net
 domain:msnewskids.org
@@ -18566,8 +18566,11 @@ domain:nbcnewyork.com
 domain:nbcolympics.com
 domain:nbcsports.com
 domain:nbcudigitaladops.com
+domain:nbcumv.com
 domain:nbcuni.com
+domain:nbcunicareers.com
 domain:nbcuniversal.com
+domain:nbcuniversalprivacy.com
 domain:nbdh15.buzz
 domain:nbtvpn.com
 domain:nbys.tv
@@ -24866,6 +24869,7 @@ domain:telegramdownload.com
 domain:telegraph.co.uk
 domain:telekom.com
 domain:telekom.de
+domain:telemundo.com
 domain:telerik.com
 domain:telesco.pe
 domain:telesec.de
@@ -25568,6 +25572,7 @@ domain:torrentproject.se
 domain:torrenty.org
 domain:torrentz.eu
 domain:torrindex.net
+domain:tortoisegit.org
 domain:tortoisesvn.net
 domain:torvpn.com
 domain:tosh.comedycentral.com
@@ -26156,6 +26161,7 @@ domain:udndata.com
 domain:udnfunlife.com
 domain:udomain.hk
 domain:udtrucksmeena.com
+domain:udxfpp.com
 domain:ueberamazon.de
 domain:uflash.tv
 domain:uforadio.com.tw
@@ -26248,11 +26254,18 @@ domain:united.ru
 domain:unitedsocialpress.com
 domain:unity.com
 domain:unity3d.com
+domain:universalbeijingresort.com
+domain:universalhorrorunleashed.com
+domain:universalkidsresort.com
 domain:universalorlando.com
+domain:universalpictures.co.uk
 domain:universalpictures.com
+domain:universalpicturesathome.com
 domain:universalpicturesinternational.com
+domain:universalproductsexperiences.com
 domain:universalscalablefirmware.org
 domain:universalstudioshollywood.com
+domain:universalukproject.co.uk
 domain:universitypressscholarship.com
 domain:unix100.com
 domain:unknownspace.org
@@ -26287,6 +26300,7 @@ domain:updownradar.com
 domain:upfrontcfd.com
 domain:upfrontfea.com
 domain:upghsbc.com
+domain:uphe.com
 domain:upholdjustice.org
 domain:upjav.cc
 domain:upjav.org
@@ -26353,6 +26367,7 @@ domain:usertesting.com
 domain:usertrust.com
 domain:usfk.mil
 domain:usgs.gov
+domain:usj.co.jp
 domain:usma.edu
 domain:usmc.mil
 domain:usno.navy.mil
