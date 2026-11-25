@@ -96,6 +96,7 @@ full:community.oneplus.com
 full:configuration-lb.ls-apple.com.akadns.net
 full:copilot-workspace.githubnext.com
 full:copilotprodattachments.blob.core.windows.net
+full:courses.myecnu.org
 full:crl.versign.net
 full:csis-prod.s3.amazonaws.com
 full:d151l6v8er5bdm.cloudfront.net
@@ -5829,6 +5830,7 @@ domain:cabletvdirectv.com
 domain:cachefly.com
 domain:cachefly.net
 domain:cachinese.com
+domain:cachix.org
 domain:cacnw.com
 domain:cactusvpn.com
 domain:cad-mep.com
@@ -10025,6 +10027,7 @@ domain:fastly-terrarium.com
 domain:fastly.com
 domain:fastly.io
 domain:fastly.net
+domain:fastlydns.net
 domain:fastlylabs.com
 domain:fastlylb.net
 domain:fastmail.com
@@ -27029,6 +27032,7 @@ domain:vivahentai4u.net
 domain:vivaldi.com
 domain:vivatube.com
 domain:vivaxnxx.com
+domain:vivox.com
 domain:vivthomas.com
 domain:vixen.com
 domain:vixengroup.com
