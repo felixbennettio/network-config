@@ -42,7 +42,6 @@ full:geminiweb-pa.clients.google.com
 full:geminiweb-pa.clients6.google.com
 full:generativelanguage.googleapis.com
 full:in.appcenter.ms
-full:inference.codeium.com
 full:jules.google.com
 full:location.microsoft.com
 full:makersuite.google.com
